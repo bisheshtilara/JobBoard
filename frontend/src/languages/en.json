@@ -1,0 +1,57 @@
+{
+  "title": "JobBoard",
+  "test": "Hello, I'm Amir",
+  "buttons": {
+    "register": "Register1",
+    "login": "Login",
+    "createAccount": "Create account",
+    "yesAccount": "I already have an account!",
+    "noAccount": "I don't have an account (yet)"
+  },
+  "navbar": {
+    "nav": {
+      "offers": "Job offers",
+      "company": "Companies"
+    }
+  },
+  "modals": {
+    "whyRegister": "Want to find dream job? Fill in the fields and we'll get you started!"
+  },
+  "forms": {
+    "yes": "Yes",
+    "no": "No",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "description": "Description",
+    "requirements": "Requirements",
+    "yourEmail": "Your email",
+    "subject": "Subject",
+    "message": "Message",
+    "email": "Email",
+    "cellphone": "Mobile phone",
+    "website": "Website",
+    "age": "Age (years)",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "female": "Female",
+    "male": "Male",
+    "nonBinary": "Non-binary",
+    "preferNotSay": "Prefer not to say",
+    "intro": "Introduction",
+    "bio": "Biography",
+    "expertise": "Expertise",
+    "optional": "Optional",
+    "category": "Category",
+    "start": "Start",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "noMatch": "Passwords don't match",
+    "keepOldPassword": "Leave this empty to keep your old password.",
+    "accountType": "Account type",
+    "changeAccountType": "Change account type",
+    "keywords": "3 keywords separated by a comma"
+  },
+  "messages": {
+    "agreeWithOur": "By registering yourself you automatically accept our"
+  }
+}

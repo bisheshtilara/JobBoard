@@ -1,0 +1,41 @@
+.presentation-video-section {
+  @apply flex flex-col;
+  margin-top: map-get($margins, 'section-sm');
+}
+
+.presentation-video {
+  height: 250px;
+  @include mq(medium) {
+    width: 400px;
+  }
+
+  @include mq(xxlarge) {
+    height: 400px;
+    width: 700px;
+  }
+}
+
+.profile-avatar-section {
+  @apply flex flex-col items-center;
+  @include mq(medium) {
+    flex-direction: row;
+    padding: map-get($paddings, 'section');
+  }
+
+  .profile-avatar-image {
+    @apply font-bold text-white;
+    @include mq(medium) {
+      margin-right: map-get($map: $margins, $key: 'image');
+    }
+  }
+}
+
+.profile-page-banner-image-height {
+  min-height: $min-background-image-height;
+}
+
+.profile-bio {
+  p:nth-child(n+2) {
+    @apply mt-4;
+  }
+}

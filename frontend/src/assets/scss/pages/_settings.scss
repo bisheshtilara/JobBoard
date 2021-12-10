@@ -1,0 +1,94 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  &:hover {
+    opacity: 1;
+  }
+}
+.w-80 {
+  @include mq(medium) {
+    width: 80% !important;
+  }
+}
+label {
+  border-radius: 0px;
+  padding: 1rem 1rem;
+  display: inline-block;
+  width: 100%;
+  &#set-avatar {
+    text-align: center;
+    &::before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+  }
+}
+.visually-hidden {
+  position: absolute;
+  left: -100vw;
+  opacity: 0;
+}
+.visually-hidden:checked ~ label {
+  background: rgba(66, 134, 244, 0.3);
+}
+.is-searching {
+  margin-top: 0.8rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.swal2-radio {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.swal2-radio label:last-child {
+  text-align: left;
+}
+.unsub-sect {
+  display: flex;
+}
+.unsub-sect1 {
+  display: flex;
+  flex-direction: column;
+}
+.swal2-input.swal-unsub {
+  width: 6%;
+  margin: 0px 18px 0px 0px;
+}
+.lab-unsub {
+  padding-top: 4%;
+  text-align: left;
+}
+.form-input {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.resume-buttons {
+  @apply flex flex-col float-right;
+  a {
+    @apply m-0 mt-1;
+  }
+  .upload-cv {
+    label {
+      @apply button button-primary cursor-pointer;
+      display: inline-block;
+    }
+    input {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+//
+// OFFER PAGE STYLING
+//
+
+// Since the titles can be long, we'll decrease the size of the h2 here
+.offer-title {
+  font-size: 2rem;
+}
+
+.offer-main-content {
+  @apply container mx-auto py-5;
+
+  @include mq(medium) {
+    @apply w-10/12  px-10 py-10;
+  }
+
+  @include mq(large) {
+    @apply w-10/12  px-20 py-20;
+  }
+
+  @include mq(xxlarge) {
+    @apply w-8/12;
+  }
+}
+.swal2-radio {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.swal2-radio label:last-child {
+  text-align: left;
+}
+.unsub-sect {
+  display: flex;
+}
+.unsub-sect1 {
+  display: flex;
+  flex-direction: column;
+}
+.swal2-input {
+  box-shadow: none;
+}
+.swal2-input.swal-unsub {
+  width: 6%;
+  margin: 0px 18px 0px 0px;
+}
+.lab-unsub {
+  padding-top: 4%;
+  text-align: left;
+}
+.form-input {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

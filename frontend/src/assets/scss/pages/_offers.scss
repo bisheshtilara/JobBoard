@@ -1,0 +1,67 @@
+
+.findOffer-section {
+  @apply px-10 mt-10;
+  .findOffer-subtitle {
+    @apply flex flex-col;
+    @include mq(medium) {
+      @apply flex-row justify-between;
+    }
+  }
+}
+
+.offers-cards-grid {
+  @apply grid justify-between gap-4;
+  margin-top: map-get($map: $margins, $key: 'section-xs');
+  margin-bottom: map-get($map: $margins, $key: 'section-md');
+  @apply grid-cols-1;
+  @include mq(medium) {
+    @apply grid-cols-2;
+  }
+
+  @include mq(large) {
+    @apply grid-cols-3;
+  }
+
+  @include mq(xlarge) {
+    @apply grid-cols-4;
+  }
+
+  @include mq(xxlage) {
+    @apply grid-cols-4;
+  }
+
+  @include mq(xxxlage) {
+    @apply grid-cols-6;
+  }
+}
+
+.offers-categories-cards-grid {
+  @apply grid justify-between grid-cols-1 gap-4;
+  margin-top: map-get($margins, 'section');
+  @include mq(medium) {
+    @apply grid-cols-2;
+  }
+
+  @include mq(large) {
+    @apply grid-cols-3;
+  }
+
+  @include mq(xlarge) {
+    @apply grid-cols-4;
+  }
+
+  @include mq(xxlage) {
+    @apply grid-cols-5;
+  }
+}
+
+.selector-label {
+  @apply inline-block py-1 mr-3 font-normal text-black bg-white border-b-2 border-white;
+  cursor: pointer;
+
+  font-size: map-get($fontSizes, 'text-xs');
+
+  @include mq(medium) {
+    font-size: map-get($fontSizes, 'text');
+  }
+}

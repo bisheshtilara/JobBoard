@@ -1,0 +1,69 @@
+@responsive {
+  .title-1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 130%;
+  }
+
+  .title-2 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 130%;
+  }
+
+  .title-3 {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 130%;
+  }
+
+  .title-4 {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .title-5 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+  }
+    
+  .title-page  {
+    @apply font-bold text-black text-30 leading-130 font-poppins;
+  }
+
+  .title-section {
+    @apply font-bold text-25 leading-180;
+  }
+
+  .title-step {
+    @apply font-bold text-31 leading-150;
+  }
+
+  .title-card {
+    @apply font-semibold text-17 leading-130;
+  }
+
+  .text-action {
+    @apply font-semibold text-14 leading-150;
+    letter-spacing: 0.2px;
+  }
+
+  .text-step {
+    @apply font-normal text-14 leading-180;
+  }
+
+  .text-info {
+    @apply font-semibold text-14 leading-180;
+  }
+
+  .text-description {
+    @apply font-normal text-17 leading-180;
+  }
+  .title-category{
+    @apply font-medium text-white uppercase text-16 font-poppins;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": "JobBoard",
+  "test": "Hello, I'm Amir",
+  "hashtag1": "#hashtag1",
+  "hashtag2": "#hashtag2",
+  "buttons": {
+    "register": "Register",
+    "login": "Login",
+    "createAccount": "Create account",
+    "yesAccount": "I already have an account!",
+    "noAccount": "I don't have an account (yet)",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions",
+    "forgotPassword": "Forgot password?",
+    "rememberPassword": "Oh snap, I remember it now!",
+    "resetPassword": "Reset password",
+    "mission": "Our Mission",
+    "meetRecruiters": "Meet our recruiters",
+    "updateProfile": "Save changes",
+    "changeImage": "Change image"
+  },
+  "navbar": {
+    "nav": {
+      "offers": "Job offers",
+      "company": "Companies",
+      "users": "Users"
+    }
+  },
+  "modals": {
+    "whyRegister": "Want to find dream job? Fill in the fields and we'll get you started!"
+  },
+  "forms": {
+    "yes": "Yes",
+    "no": "No",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "description": "Description",
+    "requirements": "Requirements",
+    "yourEmail": "Your email",
+    "subject": "Subject",
+    "message": "Message",
+    "email": "Email",
+    "cellphone": "Mobile phone",
+    "website": "Website",
+    "age": "Age (years)",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "female": "Female",
+    "male": "Male",
+    "nonBinary": "Non-binary",
+    "preferNotSay": "Prefer not to say",
+    "intro": "Introduction",
+    "bio": "Biography",
+    "expertise": "Expertise",
+    "optional": "Optional",
+    "category": "Category",
+    "start": "Start",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "noMatch": "Passwords don't match",
+    "keepOldPassword": "Leave this empty to keep your old password.",
+    "accountType": "Account type",
+    "changeAccountType": "Change account type",
+    "keywords": "3 keywords separated by a comma"
+  },
+  "messages": {
+    "agreeWithOur": "By registering yourself you automatically accept our",
+    "oopsNoOffers": "Oops, this looks empty. Try to change the filter settings!",
+    "oopsNoRecruiters": "Oops, this looks empty. Try to visit another recruiter!",
+    "somethingWrong": "Something went wrong here...",
+    "tryAgain": "Please try to log in again, if the problem persist, please contact us and accept our apologies!",
+    "unsavedChanges": "You have some unsaved changes, make sure you save them before leaving this page!",
+    "numberOfOffers": "No offers found | {n} offer found | {n} offers found"
+  },
+  "offersPage": {
+    "title": "Job offers",
+    "subtitle": "Open positions up-to-date",
+    "calendarTitle": "Starting date",
+    "calendarSubtitle": "Select when you would like to start working.",
+    "duration": "Duration",
+    "noOffersFound": "Oops looks like it's empty, try changing the filter settings or come back later!"
+  },
+  "profile": {
+    "applied": "Applied offers",
+    "completed": "Previous offers",
+    "checkOut": "Check out",
+    "onFb": "on Facebook",
+    "onLinkedin": "on Linkedin",
+    "on Github": "on Github"
+  },
+  "settings": {
+    "title": "Settings",
+    "accountInfo": "Account information",
+    "profileInfo": "Profile information",
+    "personalInfo": "Personal information",
+    "socialInfo": "Social information",
+    "noIntro": "No introduction",
+    "noBio": "No bio",
+    "searchJob": "I am searching for a job"
+  },
+  "configure": {
+    "offerInfo": "Offer information"
+  },
+  "usersPage": {
+    "filter": "Users filter",
+    "noUsersFound": "Oops looks like it's empty, try changing the filter settings or come back later!"
+  }
+}
